@@ -1,3 +1,34 @@
+# Manual QA Documentation — E-commerce Website (m-postel.ru)
+
+Complete manual testing documentation for a production e-commerce website
+(online bedding store): from requirements analysis and a QA roadmap to test
+plans, test cases and bug reports. Built as a portfolio project to show
+end-to-end manual QA process on a real product.
+
+**Language:** Russian · **Format:** Markdown, module by module
+
+## What's inside
+
+| Folder | Contents |
+|---|---|
+| `docs/` | project description, requirements for testing, QA roadmap |
+| `test-plans/` | smoke / functional / UI test plans |
+| `test-cases/` | test cases by module: user registration, catalog, cart, checkout |
+| `reports/` | bug report template, example bug reports, statistics by priority/status/module |
+
+**Volume:** 60+ structured test cases (steps, preconditions, expected results),
+3 test plans, documented bug reports with severity & priority classification.
+
+**Test design applied:** equivalence partitioning, boundary values, negative
+scenarios, UI checklist approach.
+
+## Quick start
+1. Start with `docs/roadmap.md` for the process overview
+2. See `docs/project-description.md` for the functionality scope
+3. Test plans: `test-plans/smoke-test-plan.md` first
+
+---
+
 # Тестирование сайта m-postel.ru
 
 ## Описание проекта
@@ -32,10 +63,5 @@
 - **Сервер**: nginx/1.18.0
 - **PHP**: 7.4.30
 
-## Быстрый старт
-1. Изучите `docs/roadmap.md` для понимания плана работы
-2. Ознакомьтесь с `docs/project-description.md` для понимания функциональности
-3. Начните с `test-plans/smoke-test-plan.md` для базового тестирования
-
 ## Статус проекта
-🟡 В разработке - создание документации и планов тестирования
+🟡 В разработке — документация и планы тестирования покрывают 4 модуля (регистрация, каталог, корзина, чекаут)
